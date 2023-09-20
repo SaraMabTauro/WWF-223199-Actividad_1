@@ -1,0 +1,814 @@
+body {
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 60px; 
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff; 
+    padding: 10px 20px; 
+}
+
+.container {
+    padding: 165px;
+}
+
+.text-container {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center; 
+}
+
+.text-container ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.text-container ul li {
+    margin-bottom: 10px; 
+}
+
+.text-container h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.time{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.nada{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+
+.vertical-list p {
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.vertical-list p::before {
+    content: "\2022"; 
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.principios {
+    background-color: #f7f6f1;
+    padding: 35px;
+}
+
+.principios h2 {
+    text-align: left;
+}
+
+.principios ul {
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+    display: block; 
+}    
+
+.wwf-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.wwf-section img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.eslogan {
+    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+    color: gray;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+.section h2 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section ul li {
+    font-family:'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+    margin-bottom: 5px; 
+    font-size: 12px; 
+}
+
+.gray-text {
+    color: gray;
+}
+
+
+.logo {
+    max-width: 100px; 
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px; 
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #fff; 
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.fa {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-right: 20px; 
+}
+
+
+.contenedor {
+    width: -138px; 
+    height: 423px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 100%;
+    text-align: center;
+}
+
+.title-underline {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.title-underline::after {
+    content: '';
+    display: block;
+    width: 5%; 
+    height: 5px; 
+    margin: 0 auto;
+    background-color: #dd681b; 
+    margin-top: 5px;
+}
+
+.logo-link {
+    width: 20px;
+    height: auto;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 9999;
+}
+
+
+.header {
+    text-transform: uppercase;
+}
+
+.header .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+  
+.header .icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #000; 
+    text-decoration: none;
+}
+  
+.header .icons a:hover {
+    color: #ff6600;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.noticias {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    display: flexbox;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.icono {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.icono i {
+    font-size: 24px;
+    color: #333;
+}
+
+.footer-wwf{
+    display: inline-block;
+    position: absolute;
+}
+
+.header-down {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid #726f6f;
+    padding-top: 81px;     
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;    
+
+}
+
+.header-down .icons a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 5px 10px; 
+    margin-bottom: 10px; 
+}
+
+.header-down .icons a::before {
+    content: ''; 
+    display: block;
+    border-left: 1px solid #ccc; 
+    height: 25px; 
+    position: absolute;
+    left: -5px;
+}
+
+.has-dropdown::after {
+    content: "\f107"; 
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+.has-dropdown.open::after {
+    content: "\f106"; 
+    color: #3b1e0b;
+}
+
+.header .has-dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    background-color: #fff;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header .has-dropdown .dropdown-menu {
+    transform: translateY(-10px);
+}
+
+.header .has-dropdown:hover .dropdown-menu {
+    transform: translateY(0);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.dropdown-menu li {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family:'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.dropdown-menu li {
+    margin-bottom: 20px 5px;
+}
+
+.header .has-dropdown.active a {
+    color: #dd681b; 
+}
+
+.header .navbar-nav .nav-item a:hover,
+.header .navbar-nav .nav-item a.active {
+    color: #dd681b;
+}
+
+
+
+.header .dropdown-menu li {
+    padding: 5px 15px; 
+    margin-bottom: 10px; 
+}
+
+.header .dropdown-menu li:hover {
+    background-color: #dd681b; 
+    color: white; 
+}
+
+.header .dropdown-menu li.active {
+    background-color: #dd681b; 
+    color: white;
+}
+
+.header .has-dropdown:hover .dropdown-menu,
+.header .has-dropdown:focus .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+.header .has-dropdown.open .dropdown-menu {
+    background-color: #dd681b; 
+}
+
+.header .has-dropdown.open > a {
+    background-color: #dd681b;
+    color: white; 
+    cursor: pointer; 
+}
+
+.header .has-dropdown.open .dropdown-menu li {
+    background-color: #dd681b;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-image: url('//wwfint.awsassets.panda.org/img/ghs_5987-gabriel-herrera-_-wwf-ecuador_776239.jpg');
+    color: #fff; 
+}
+
+.texto-sobre-imagen2 {
+    padding: 10px; 
+    margin: 10px; 
+    padding-top: 273px;
+    font-size: 75px;
+    line-height: 0.9;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.texto-sobre-imagen2::before {
+    content: '';
+    display: block;
+    width: 45%;
+    height: 4px; 
+    background-color: #edeae8;
+    margin-top: 0; 
+    margin-bottom: 19px; 
+}
+
+.texto-sobre-imagen2 p {
+    margin: 0 0 6px;
+    font-size: 85px;
+    text-align: left;
+}
+
+
+.texto-sobre-imagen2 .leer-mas {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px; 
+    line-height: 58px; 
+    border-radius: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #dd681b;
+    border-color: #c65d18;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.texto-sobre-imagen2 .leer-mas:hover {
+    background-color: #c65d18;
+    
+}
+
+.texto-generales {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 55px;
+    line-height: 1;
+    text-align: center;
+}
+
+.texto-generales::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 25px auto 0;
+    background: #dd681b;
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+  
+.card {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+}
+  
+.card-content {
+    padding: 20px;
+}
+  
+.card-content h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+  
+.card-content p {
+    font-family:'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+    color:#726f6f;
+    font-size: 1rem;
+    margin: 0;
+}  
+  
+.arrow-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px; 
+    background-color: #dd681b;
+    border-radius: 50%; 
+}
+  
+.arrow-button {
+    color: white; 
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+.arrow-button i {
+    font-size: inherit;
+}
+  
+.custom-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-primary {
+    color: orange;
+}
+
+.botones-os {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.botones-os .not-pu {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center; 
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 58px;
+    border-radius: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #dd681b;
+    border-color: #c65d18;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 200px;
+    margin: 10px;
+}
+
+.botones-os .not-pu:hover {
+    background-color: #c65d18;
+    
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 20px; 
+}
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+  
+.work-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+  
+.work-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+  
+.work-item img {
+    width: 100%; 
+    display: block;
+    transition: transform 0.3s ease;
+}
+  
+.work-item:hover img {
+    transform: scale(1.05);
+}
+  
+.caption {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+  
+.text-white {
+    color: #fff;
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+.font30 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+  
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+.footer .footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer .footer-bottom ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; 
+}
+
+.footer .footer-bottom li {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-right: 1px solid #eee;
+}
+
+.footer .footer-bottom li:last-child {
+    border-right: none;
+}
+
+.footer .footer-bottom li a {
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif ; 
+    font-size: 14px;
+    color: gray; 
+    text-decoration: none;
+}
+
+.footer .footer-bottom li a:hover {
+    color: #9e9e9e;
+}
+
+
+.footer .footer-bottom p, .footer .footer-bottom a {
+    font-family: 'Open Sans', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: inline;
+}
+
+.footer .footer-bottom a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.footer .footer-bottom a:hover {
+    color: #9e9e9e;
+}
+
+#region-picker {
+    transition: height 0.2s ease-in-out;
+    height: 0;
+    overflow: hidden; 
+}
+
+#region-picker.show {
+    height: 510px;
+}
+
+
+#region-picker .container {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mapa_mundi_blanco.PNG/1200px-Mapa_mundi_blanco.PNG');
+    background-color: #f5f5f5; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100%; 
+    height: 540px;
+    position: relative;
+    padding: 52px;
+}
+
+#region-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: calc(100vh - 100px); 
+    overflow-y: auto; 
+}
+
+#region-list li {
+    width: 33.33%;
+    padding: -15px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#region-picker .container {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#region-list li {
+    font-size: 14px; 
+}
+
+
+.custom-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.region-list li:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+#globe-icon:hover {
+    color: orange;
+}
